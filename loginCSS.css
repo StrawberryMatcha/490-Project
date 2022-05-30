@@ -1,0 +1,49 @@
+body {
+    /*background-color: goldenrod;*/
+    background-image: url(simple.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Helvetica, sans-serif;
+}
+.ui {
+    margin: auto;
+    position: fixed;
+    top: 35%;
+    left: 35%;
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(202, 52, 51);
+    padding: 25px;
+    border-radius: 10px;
+    
+}
+form {
+    display: table;
+}
+h1 {
+    text-align: center;
+}
+p {
+    display: table-row;
+}
+input {
+	display: table-cell;
+	margin: 10px;
+}
+.submitButton {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+label {
+	display: table-cell;
+	font-weight: bold;
+}
+button {
+	background-color: rgb(34, 34, 34);
+	color: white;
+	border-radius: 4px;
+}

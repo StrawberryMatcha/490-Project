@@ -1,0 +1,86 @@
+body {
+    background-image: url(simple.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Helvetica, sans-serif;
+}
+/* Menu Bar formatting */
+ul {
+    background-repeat: revert;
+    background-size: revert;
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    user-select: none;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:active {
+    background-color: #111;
+}
+
+/* Main category formatting */
+#reviewExams, #takeExams {
+    display: none;
+}
+
+/* Formatting for split screen */
+.contents {
+    padding: 20px;
+}
+.half {
+    width: 47.55%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}
+.examHalf {
+    width: auto;
+    float: left;
+    padding: 2px;
+}
+.submitButton {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+.reviewExam {
+    padding: 20px;
+    border: 2px solid red;
+}
+/* Form Formatting */
+form {
+    display: table;
+}
+p {
+    display: table-row;
+}
+input select {
+	display: table-cell;
+	margin: 10px;
+}
+label {
+	display: table-cell;
+	font-weight: bold;
+}
+textarea {
+    display: table-cell;
+    margin: 10px;
+}
+.examQ .qPoints {
+    display: unset;
+}
+.listedQ {
+    border: 1px solid black;
+}
